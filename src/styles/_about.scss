@@ -1,0 +1,41 @@
+.about {
+  padding: 100px;
+
+  .about-container {
+    display: flex;
+    gap: 50px;
+    .left {
+      flex: 5;
+
+      // h4 {
+      //   font-size: 0.9rem;
+      // }
+
+      h2 {
+        width: 70%;
+        margin: 20px 0;
+        color: $color-primary;
+      }
+
+      p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        word-spacing: 3px;
+
+        &.first-para {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .right {
+      flex: 5;
+
+      .image {
+        img {
+          border-radius: 150px 170px 195px 120px;
+        }
+      }
+    }
+  }
+}

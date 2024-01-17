@@ -1,0 +1,35 @@
+@mixin big-screen {
+  @media screen and (max-width: $px-media-lg) {
+    @content;
+  }
+}
+
+@mixin mid-screen {
+  @media screen and (max-width: $px-media-md) {
+    @content;
+  }
+}
+
+@mixin sma-screen {
+  @media screen and (max-width: $px-media-sm) {
+    @content;
+  }
+}
+
+@mixin xma-screen {
+  @media screen and (max-width: $px-media-xsm) {
+    @content;
+  }
+}
+
+@mixin skew {
+  transform: skewX(35deg);
+}
+
+@mixin unskew {
+  transform: skewX(-35deg);
+}
+
+@mixin hidden {
+  overflow: hidden;
+}

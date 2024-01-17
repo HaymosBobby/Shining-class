@@ -1,0 +1,40 @@
+{
+  "sliderData": {
+    "heroData": {
+      "useFor": "hero",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 1,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "cssEase": "ease"
+      },
+      "info": [
+        {
+          "imgLink": "../images/dumpers.jpg",
+          "title": "Cutting-edge technology",
+          "description": "Discover how our operations leverage the latest advancements to maximize efficiency and productivity."
+        },
+        {
+          "imgLink": "../images/mine-blue.jpg",
+          "title": "Diverse mineral portfolio",
+          "description": "Dive into the wide range of minerals we extract, from precious metals to industrial minerals."
+        },
+        {
+          "imgLink": "../images/pit.jpg",
+          "title": "Innovation in action",
+          "description": "Witness our innovative approaches to mining, from automated processes to advanced data analytics."
+        },
+        {
+          "imgLink": "../images/pit.jpg",
+          "title": "Sustainable practices",
+          "description": "Explore how priotize environmental stewardship and implement sustainable mining practices."
+        }
+      ]
+    }
+  }
+}

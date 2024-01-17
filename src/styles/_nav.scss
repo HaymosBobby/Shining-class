@@ -1,0 +1,496 @@
+nav {
+  background: #ffffff1a;
+
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: $color-boxShadow;
+  z-index: 9;
+
+  .nav-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $color-white;
+    @include hidden;
+
+    .bg-logo {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 100px;
+    }
+
+    .top {
+      display: flex;
+      justify-content: flex-end;
+      // height: 40px;
+
+      .con-soc {
+        background-color: $color-primary;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        right: -15px;
+        padding: 0 115px 0 30px;
+        @include skew;
+        width: 80%;
+
+        .contact {
+          ul {
+            li {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 10px;
+            }
+          }
+        }
+
+        .contact,
+        .socials {
+          @include unskew;
+
+          ul {
+            display: flex;
+            li {
+              padding: 10px 15px;
+              border-right: 0.5px solid $color-white;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 0 80px 0 100px;
+      height: 80px;
+      transform-origin: top;
+      transition: all 0.6s ease-in-out;
+
+      .md-logo {
+        display: none;
+      }
+
+      .nav-links {
+        ul {
+          display: flex;
+          gap: 5px;
+
+          li {
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 25px 20px;
+          }
+        }
+      }
+
+      .mobile-toggler {
+        display: none;
+        cursor: pointer;
+
+        .toggle-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 50px;
+          height: 50px;
+          padding: 7px 10px;
+
+          .line {
+            height: 3px;
+            width: 100%;
+            background: $color-white;
+            transition: all 0.3s ease-in-out;
+
+            &:nth-child(2) {
+              margin: 6px 0;
+            }
+          }
+        }
+
+        &.mobile-nav-active {
+          .line {
+            &:first-child {
+              transform: rotate(45deg) translate(7px, 6px);
+            }
+
+            &:nth-child(2) {
+              opacity: 0;
+            }
+
+            &:last-child {
+              transform: rotate(-45deg) translate(6px, -6px);
+            }
+          }
+        }
+      }
+    }
+
+    @include big-screen {
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: block;
+
+        .con-soc {
+          padding: 0 100px;
+          right: 0;
+          width: 100%;
+          transform: skewX(0);
+
+          .contact {
+            ul {
+              a:first-child {
+                li {
+                  padding-left: 0;
+                }
+              }
+            }
+          }
+
+          .contact,
+          .socials {
+            transform: skewX(0);
+          }
+        }
+      }
+
+      .bottom {
+        .md-logo {
+          display: block;
+        }
+
+        justify-content: space-between;
+      }
+    }
+
+    @include mid-screen {
+      height: 100%;
+      .top {
+        display: none;
+      }
+    }
+
+    @include sma-screen {
+      .bottom {
+        padding: 0 50px;
+
+        .nav-links {
+          display: none;
+        }
+
+        .mobile-toggler {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .mobile-navigations {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background: $color-primary;
+    transform: translateX(-100vh);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+
+    .mobile-navigation-container {
+      padding: 30px;
+      position: relative;
+      color: $color-white;
+      .cancel {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid $color-white;
+        cursor: pointer;
+
+        .line {
+          height: 2px;
+          width: 100%;
+          background: $color-white;
+
+          &:first-child {
+            transform: rotate(45deg) translate(1px, 1px);
+          }
+
+          &:last-child {
+            transform: rotate(-45deg) translateY(-1px);
+          }
+        }
+      }
+
+      .mobile-nav-links {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        ul {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            padding: 20px;
+            position: relative;
+            display: inline-block;
+
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              height: 2px;
+              width: 100%;
+              background-color: $color-white;
+              transform: scaleX(0);
+              transition: all 0.3s ease-in-out;
+            }
+
+            &:hover::after {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+
+      .mobile-socials {
+        padding: 20px;
+
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          li {
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid $color-white;
+            border-radius: 50%;
+            padding: 5px;
+            background: $color-white;
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    &.mobile-nav-active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    &.sticky {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: none;
+      }
+    }
+  }
+
+  &.sticky {
+    position: fixed;
+    background: $color-grey;
+    animation: fade-down 0.5s ease-in-out;
+
+    @keyframes fade-down {
+      from {
+        opacity: 0;
+        top: -10px;
+      }
+      to {
+        opacity: 1;
+        top: 0;
+      }
+    }
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    .nav-container {
+      .bg-logo {
+        display: none;
+      }
+
+      .top {
+        display: none;
+      }
+
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+
+        .md-logo {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// nav {
+//   background: transparent;
+//   width: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   z-index: 999;
+
+//   .nav-container {
+//     display: flex;
+//     justify-content: space-between;
+//     height: 120px;
+//     overflow: hidden;
+//     box-shadow: $color-boxShadow;
+//     color: $color-white;
+
+//     .left {
+//       flex: 3;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       // padding-left: 100px;
+//       // background-color: red;
+//       // height: 100%;
+//     }
+//     .right {
+//       height: 100%;
+//       // background-color: blue;
+//       flex: 9;
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: space-between;
+//       .top {
+//         // background-color: green;
+//         .con-soc {
+//           background-color: $color-primary;
+//           display: flex;
+//           justify-content: space-between;
+//           align-items: center;
+//           // height: 40px;
+//           position: relative;
+//           right: -15px;
+//           padding: 0 70px 0 30px;
+//           @include skew;
+
+//           .contact,
+//           .socials {
+//             @include unskew;
+
+//             ul {
+//               display: flex;
+
+//               li {
+//                 // padding: 10px;
+//                 border-right: 0.5px solid $color-white;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 height: 100%;
+//                 a {
+//                   padding: 10px 15px;
+//                   display: inline-block;
+//                   // align-items: center;
+//                   // justify-content: center;
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+
+//       .bottom {
+//         // background-color: yellow;
+//         .md-logo {
+//           display: none;
+//         }
+
+//         .nav-links {
+//           display: flex;
+//           justify-content: flex-end;
+//           // background-color: aqua;
+//           padding-right: 30px;
+//           ul {
+//             display: flex;
+//             // background-color: burlywood;
+//             gap: 10px;
+//             li {
+//               font-size: 1.2rem;
+//               font-weight: 500;
+
+//               a {
+//                 padding: 20px ;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     @include mid-screen {
+//       .left {
+//         display: none;
+//       }
+
+//       .right {
+//         .top {
+//           .con-soc {
+//             transform: skewX(0);
+//             right: 0;
+//             padding:  0 100px;
+
+//             .contact,
+//             .socials {
+//               transform: skewX(0);
+//             }
+//           }
+//         }
+//         .bottom {
+//           display: flex;
+//           align-items: center;
+//           justify-content: space-between;
+//           .md-logo {
+//             display: block;
+//             padding-left: 100px;
+//           }
+
+//           .nav-links {
+//             padding-right: 80px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
