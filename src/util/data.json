@@ -36,5 +36,29 @@
         }
       ]
     }
+  },
+  "aboutData": {
+    "aboutTitle": "About Us",
+    "aboutSubTitle": "Unleashing Mining Power: Your Trusted Partner.",
+    "aboutDescription": "As a responsible mining company, we aim to be a leading force in the global mining industry, providing a world class approach to mining, not neglecting our social responsibility, practising safe mining and maximizing the potentials of all involved.",
+    "imgLink": "../images/tunnel/jpg",
+    "accordionData": [
+      {
+        "title": "Global technological advancement",
+        "description": "To contribute to the global technological advancement through mining of lithium in the drive to achieve a pollution free atmosphere."
+      },
+      {
+        "title": "Impacting lives",
+        "description": "To contribute to the global economy by impacting lives through the provision of jobs, sharing developmental benefits with the people living in and around the mines."
+      },
+      {
+        "title": "Sustainable growth",
+        "description": " To ensure sustainable growth of the company by following best practices of corporate governance and promoting ecological balance and mineral conservation."
+      },
+      {
+        "title": "Green mining",
+        "description": "To contribute to the global climate drive by practising green mining."
+      }
+    ]
   }
 }

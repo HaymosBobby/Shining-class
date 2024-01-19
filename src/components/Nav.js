@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const Nav = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);

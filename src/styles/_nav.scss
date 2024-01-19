@@ -180,8 +180,12 @@ nav {
       .top {
         display: none;
       }
-    }
 
+      .bottom {
+        padding: 0 70px;
+      }
+    }
+    
     @include sma-screen {
       .bottom {
         padding: 0 50px;
@@ -193,6 +197,12 @@ nav {
         .mobile-toggler {
           display: block;
         }
+      }
+    }
+
+    @include xma-screen {
+      .bottom {
+        padding: 20px;
       }
     }
   }
@@ -322,7 +332,8 @@ nav {
 
   &.sticky {
     position: fixed;
-    background: $color-grey;
+    // background: $color-primary-hover;
+    background: #3b2929;
     animation: fade-down 0.5s ease-in-out;
 
     @keyframes fade-down {

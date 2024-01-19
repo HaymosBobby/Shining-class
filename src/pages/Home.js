@@ -3,11 +3,11 @@ import Hero from "../components/Hero";
 import data from "../util/data.json";
 
 const Home = () => {
-  const { sliderData } = data;
+  const { sliderData, aboutData } = data;
   return (
     <main>
       <Hero data={sliderData.heroData} />
-      <About />
+      <About aboutData={aboutData}/>
     </main>
   );
 };

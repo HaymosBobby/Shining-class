@@ -64,25 +64,28 @@
           }
         }
       }
+      @include mid-screen {
+        padding: 70px;
+      }
       @include sma-screen {
         padding: 50px;
+        h1 {
+          font-size: 3rem;
+        }
 
-        // h1 {
-        //   font-size: 2.75rem;
-        // }
+        p {
+          font-size: 1.1rem;
+        }
 
-        // p {
-        //   font-size: 1rem;
-        // }
-
-        // .buttons {
-        //   .btn {
-        //     font-size: 1rem;
-        //   }
-        // }
+        .buttons {
+          .btn {
+            font-size: 1.1rem;
+          }
+        }
       }
 
       @include xma-screen {
+        padding: 20px;
         h1 {
           font-size: 2.75rem;
         }
