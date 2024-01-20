@@ -5,36 +5,25 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-// import "react-accessible-accordion/dist/fancy-example.css";
 
 const About = ({ aboutData }) => {
+  const { aboutTitle, aboutSubTitle, aboutDescription, accordionData } =
+    aboutData;
   return (
     <section className="about">
       <div className="about-container">
         <div className="top">
           <div className="about-heading">
-            <h4>{aboutData.aboutTitle}</h4>
-            <h2>{aboutData.aboutSubTitle}</h2>
+            <h4>{aboutTitle}</h4>
+            <h2>{aboutSubTitle}</h2>
           </div>
-          <p>{aboutData.aboutDescription}</p>
-
-          {/* <p>
-          we prioritize environmental
-            stewardship and strive to minimize our ecological footprint. We
-            actively engage with local communities, promotiong sustainable
-            development and creating opportunities for growth.
-            We believe in fostering strong partnerships with our clients,
-            working closely with them to understand their unique needs and
-            provide tailored mining solutions. Our goal is to exceed
-            expectations by delivering projects on time and within budget, while
-            maintaining the highest standards of quality.
-          </p> */}
+          <p>{aboutDescription}</p>
         </div>
         <div className="bottom">
           <div className="accordion-container">
             <Accordion allowZeroExpanded={true}>
-              {aboutData.accordionData.map((item, index) => (
-                <AccordionItem>
+              {accordionData.map((item, index) => (
+                <AccordionItem key={index}>
                   <AccordionItemHeading>
                     <AccordionItemButton>
                       <p>{item.title}</p>

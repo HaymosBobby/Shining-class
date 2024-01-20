@@ -48,3 +48,16 @@
     text-transform: capitalize;
   }
 }
+
+@mixin padding {
+  @include mid-screen {
+    padding: 100px 70px;
+  }
+  @include sma-screen {
+    padding: 100px 50px;
+  }
+
+  @include xma-screen {
+    padding: 100px 20px;
+  }
+}

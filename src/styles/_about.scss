@@ -127,7 +127,6 @@
     }
   }
   @include mid-screen {
-    padding: 100px 70px;
 
     .about-container {
       .top {
@@ -149,11 +148,8 @@
     }
   }
 
-  @include sma-screen {
-    padding: 100px 50px;
-  }
+ 
   @include xma-screen {
-    padding: 100px 20px;
     .about-container {
       .top {
         .about-heading {
@@ -164,4 +160,6 @@
       }
     }
   }
+
+  @include padding;
 }

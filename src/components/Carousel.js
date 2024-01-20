@@ -1,24 +1,34 @@
 import Slider from "react-slick";
 import HeroComp from "./HeroComp";
 import "slick-carousel/slick/slick.css";
-import { useEffect } from "react";
-import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick-theme.scss";
+import SingleTestimonial from "./SingleTestimonial";
+import Brand from "./Brand";
 
 const Carousel = ({ data }) => {
-  useEffect(() => {}, []);
-
   const { useFor, info, settings } = data;
   if (useFor === "hero") {
     return (
-      <Slider
-        {...settings}
-       
-      >
+      <Slider {...settings}>
         {info.map((element, index) => {
-          return (
-            <HeroComp element={element} key={index} />
-          );
+          return <HeroComp element={element} key={index} />;
         })}
+      </Slider>
+    );
+  } else if (useFor === "testimonial") {
+    return (
+      <Slider {...settings}>
+        {info.map((element, index) => (
+          <SingleTestimonial element={element} key={index} />
+        ))}
+      </Slider>
+    );
+  } else if (useFor === "brand") {
+    return (
+      <Slider {...settings}>
+        {info.map((element, index) => (
+          <Brand key={index} brandLogo={element.imgLink} />
+        ))}
       </Slider>
     );
   }

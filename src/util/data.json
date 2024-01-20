@@ -15,22 +15,22 @@
       },
       "info": [
         {
-          "imgLink": "../images/dumpers.jpg",
+          "imgLink": "/images/dumpers.jpg",
           "title": "Cutting-edge technology",
           "description": "Discover how our operations leverage the latest advancements to maximize efficiency and productivity."
         },
         {
-          "imgLink": "../images/mine-blue.jpg",
+          "imgLink": "/images/mine-blue.jpg",
           "title": "Diverse mineral portfolio",
           "description": "Dive into the wide range of minerals we extract, from precious metals to industrial minerals."
         },
         {
-          "imgLink": "../images/pit.jpg",
+          "imgLink": "/images/pit.jpg",
           "title": "Innovation in action",
           "description": "Witness our innovative approaches to mining, from automated processes to advanced data analytics."
         },
         {
-          "imgLink": "../images/pit.jpg",
+          "imgLink": "/images/pit.jpg",
           "title": "Sustainable practices",
           "description": "Explore how priotize environmental stewardship and implement sustainable mining practices."
         }
@@ -60,5 +60,135 @@
         "description": "To contribute to the global climate drive by practising green mining."
       }
     ]
+  },
+  "servicesData": {
+    "serviceTitle": "Our Services",
+    "serviceSubTitle": "Why choose us",
+    "serviceData": [
+      {
+        "title": "Gold mining",
+        "description": "We specialize in extracting and refining high-quality gold from our mining site.",
+        "icon": "game-icons:gold-bar"
+      },
+      {
+        "title": "Lithium mining",
+        "description": "Our expertise lies in the extraction and processing of lithium, a key componentin renewanle energy.",
+        "icon": "arcticons:lithium"
+      },
+      {
+        "title": "Tourmaline mining",
+        "description": "Discover the beauty and value of tourmaline through our sustainable mining practices.",
+        "icon": "game-icons:gold-bar"
+      },
+      {
+        "title": "Tantalite mining",
+        "description": " We extract tantalite, a valuable mineral used in the electronics industry, with a focusn ethical and resposible mining.",
+        "icon": "arcticons:lithium"
+      },
+      {
+        "title": "Colombite mining",
+        "description": "Our mining operations yield high-quality colombite, a mineral used in various industrial applications.",
+        "icon": "game-icons:gold-bar"
+      }
+    ]
+  },
+  "testimonialsData": {
+    "testimonialTitle": "Testimonial",
+    "testimonialSubTitle": "What our clients have to say",
+    "testimonialData": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-3.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        },
+        {
+          "imgLink": "/images/avatar-4.jpg",
+          "name": "Ema Watson",
+          "designation": "Chief Executive Officer, Brazil",
+          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+        }
+      ]
+    },
+    "brandData": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "responsive": [
+          
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.jpg"
+        },
+        {
+          "imgLink": "/images/brand-2.jpg"
+        },
+        {
+          "imgLink": "/images/brand-3.jpg"
+        },
+        {
+          "imgLink": "/images/brand-4.jpg"
+        },
+        {
+          "imgLink": "/images/brand-5.jpg"
+        },
+        {
+          "imgLink": "/images/brand-6.jpg"
+        }
+      ]
+    }
   }
 }
