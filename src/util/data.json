@@ -64,6 +64,7 @@
   "servicesData": {
     "serviceTitle": "Our Services",
     "serviceSubTitle": "Why choose us",
+    "serviceDescription": "Our mining industry offers a range of services, including exploration, extraction, processing, and refining, with a focus on safety, efficiency, and profitability.",
     "serviceData": [
       {
         "title": "Gold mining",
@@ -119,27 +120,27 @@
       "info": [
         {
           "imgLink": "/images/avatar-1.jpg",
-          "name": "Ema Watson",
+          "name": "John D",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "Impressed by their expertise and efficiency. They delivered exceptional results, exceeding our expectations. Highly recommend their mining services!"
         },
         {
           "imgLink": "/images/avatar-2.jpg",
-          "name": "Ema Watson",
+          "name": "Sarah L",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "Professional and reliable mining services. Their attention to detail and commitment to safety is commendable. A trusted partner in our mining operations."
         },
         {
           "imgLink": "/images/avatar-3.jpg",
-          "name": "Ema Watson",
+          "name": "Mark R",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "Outstanding mining solutions! Their team's knowledge and innovative approach helped us optimize production and achieve remarkable cost savings. Truly impressive!"
         },
         {
           "imgLink": "/images/avatar-4.jpg",
-          "name": "Ema Watson",
+          "name": "Emily S",
           "designation": "Chief Executive Officer, Brazil",
-          "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
+          "text": "Top-notch mining services! They consistently deliver on time and within budget. Their expertise has been instrumental in our mining success. Highly satisfied!"
         }
       ]
     },
@@ -154,7 +155,6 @@
         "slidesToScroll": 1,
         "arrows": false,
         "responsive": [
-          
           {
             "breakpoint": 991,
             "settings": {
