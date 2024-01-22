@@ -1,5 +1,75 @@
-.contact {
-  height: 500px;
+.contacts {
   padding: 100px;
-  @include padding
+  @include padding;
+
+  .contacts-heading {
+    width: 70%;
+    @include heading;
+    margin-bottom: 80px;
+
+    p {
+      margin: 30px 0 0;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+  }
+
+  .contacts-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .contact {
+      flex: 0 0 30%;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 0 20px #00000040;
+      padding: 50px 45px 45px;
+      margin-bottom: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .icon {
+        position: absolute;
+        top: -40px;
+        left: calc(50% - 40px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 0 0 30px #00000040;
+        padding: 10px;
+        color: $color-primary;
+        background: $color-white;
+        z-index: 1;
+        svg {
+          height: 30px;
+          width: 30px;
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+      }
+    }
+
+    @include mid-screen {
+      .contact {
+        flex: 0 0 45%;
+      }
+    }
+
+    @include sma-screen {
+      .contact {
+        flex: 0 0 100%;
+      }
+    }
+  }
 }
