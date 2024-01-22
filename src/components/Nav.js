@@ -20,7 +20,7 @@ const Nav = () => {
         </div>
         <div className="top">
           <div className="con-soc">
-            <div className="contact">
+            <div className="nav-contact">
               <ul>
                 <Link to="">
                   <li>
@@ -41,7 +41,7 @@ const Nav = () => {
                 </Link>
               </ul>
             </div>
-            <div className="socials">
+            <div className="nav-socials">
               <ul>
                 <Link to="">
                   <li>

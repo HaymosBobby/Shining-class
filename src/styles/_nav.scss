@@ -40,7 +40,7 @@ nav {
         @include skew;
         width: 80%;
 
-        .contact {
+        .nav-contact {
           ul {
             li {
               display: flex;
@@ -51,8 +51,8 @@ nav {
           }
         }
 
-        .contact,
-        .socials {
+        .nav-contact,
+        .nav-socials {
           @include unskew;
 
           ul {
@@ -149,7 +149,7 @@ nav {
           width: 100%;
           transform: skewX(0);
 
-          .contact {
+          .nav-contact {
             ul {
               a:first-child {
                 li {
@@ -159,8 +159,8 @@ nav {
             }
           }
 
-          .contact,
-          .socials {
+          .nav-contact,
+          .nav-socials {
             transform: skewX(0);
           }
         }

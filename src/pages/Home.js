@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Expert from "../components/Expert";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
@@ -16,6 +17,7 @@ const Home = () => {
       <Testimonial testimonialsData={testimonialsData} />
       <Projects />
       <Expert />
+      <Contact />
     </main>
   );
 };
