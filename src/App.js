@@ -6,6 +6,7 @@ import "./styles/app.scss";
 import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "./components/Footer";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
+          <Route path="about" element={<AboutPage />} />
         </Route>
       </Routes>
 

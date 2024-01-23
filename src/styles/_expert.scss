@@ -6,9 +6,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: linear-gradient(#00000060, #00000060),
-    url(../../public/images/mine-blue.jpg) no-repeat center/cover fixed;
+    #00000099 url("../../public/images/mine-blue.jpg");
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 
   .expert-container {
     display: flex;

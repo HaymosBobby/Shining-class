@@ -115,6 +115,7 @@ footer {
                 padding: 10px;
                 width: 70%;
                 border: none;
+                @include hidden;
 
                 &:focus {
                   outline: none;
