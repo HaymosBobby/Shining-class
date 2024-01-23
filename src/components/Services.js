@@ -7,9 +7,15 @@ const Services = ({ servicesData }) => {
     <section className="services">
       <div className="services-heading-container">
         <div className="services-heading">
-          <h4>{serviceTitle}</h4>
-          <h2>{serviceSubTitle}</h2>
-          <p>{serviceDescription}</p>
+          <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+            {serviceTitle}
+          </h4>
+          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            {serviceSubTitle}
+          </h2>
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            {serviceDescription}
+          </p>
         </div>
       </div>
       <div className="services-container">

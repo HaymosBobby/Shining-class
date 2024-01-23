@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import "./styles/app.scss";
 import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,8 @@ function App() {
           <Route index element={<Home />} />
         </Route>
       </Routes>
+
+      <Footer />
     </div>
   );
 }

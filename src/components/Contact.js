@@ -27,7 +27,8 @@ const Contact = () => {
         </div>
         <div className="contact">
           <div className="icon">
-            <Icon icon="bx:phone-call" />
+            {/* <Icon icon="bx:phone-call" /> */}
+            <Icon icon="ph:phone-call" />{" "}
           </div>
           <h3>Phone</h3>
           <div className="info">

@@ -59,14 +59,21 @@
         margin-bottom: 10px;
       }
     }
+  }
+  @include mid-screen {
+    .contacts-heading {
+      width: 100%;
+    }
 
-    @include mid-screen {
+    .contacts-container {
       .contact {
         flex: 0 0 45%;
       }
     }
+  }
 
-    @include sma-screen {
+  @include sma-screen {
+    .contacts-container {
       .contact {
         flex: 0 0 100%;
       }

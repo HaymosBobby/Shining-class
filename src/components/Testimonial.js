@@ -5,8 +5,8 @@ const Testimonial = ({ testimonialsData }) => {
   return (
     <section className="testimonial">
       <div className="testimonial-heading">
-        <h4>Testimonial</h4>
-        <h2>What our clients have to say</h2>
+        <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Testimonial</h4>
+        <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">What our clients have to say</h2>
       </div>
       <div className="testimonial-container">
         <div className="testimonials">

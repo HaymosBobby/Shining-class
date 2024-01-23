@@ -14,13 +14,24 @@ const About = ({ aboutData }) => {
       <div className="about-container">
         <div className="top">
           <div className="about-heading">
-            <h4>{aboutTitle}</h4>
-            <h2>{aboutSubTitle}</h2>
+            <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+              {aboutTitle}
+            </h4>
+            <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+              {aboutSubTitle}
+            </h2>
           </div>
-          <p>{aboutDescription}</p>
+          <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
+            {aboutDescription}
+          </p>
         </div>
         <div className="bottom">
-          <div className="accordion-container">
+          <div
+            className="accordion-container"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <Accordion allowZeroExpanded={true}>
               {accordionData.map((item, index) => (
                 <AccordionItem key={index}>
@@ -40,7 +51,12 @@ const About = ({ aboutData }) => {
               ))}
             </Accordion>
           </div>
-          <div className="image">
+          <div
+            className="image"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
             <img src="../images/tunnel.jpg" alt="" />
           </div>
         </div>

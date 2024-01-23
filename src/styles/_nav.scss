@@ -1,5 +1,5 @@
 nav {
-  background: #ffffff1a;
+  background: #00000004;
 
   width: 100%;
   position: absolute;
@@ -18,10 +18,23 @@ nav {
     @include hidden;
 
     .bg-logo {
+      // background-color: blue;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       left: 100px;
+      height: 60px;
+      // width: 150px;
+      // width: 150px;
+      // width: 150px;
+
+      img {
+        object-fit: contain !important;
+        object-position: 0%;
+        height: 60px;
+        // width: 150px;
+        // height: 80px;
+      }
     }
 
     .top {
@@ -77,6 +90,15 @@ nav {
 
       .md-logo {
         display: none;
+        // background-color: blue;
+        height: 60px;
+        // width: 250px;
+        img {
+          object-fit: contain;
+          object-position: 0%;
+          height: 60px;
+          // width: 200px;
+        }
       }
 
       .nav-links {
@@ -85,7 +107,6 @@ nav {
           gap: 5px;
 
           li {
-            font-size: 1.2rem;
             font-weight: 500;
             padding: 25px 20px;
           }
@@ -103,10 +124,10 @@ nav {
           flex-direction: column;
           width: 50px;
           height: 50px;
-          padding: 7px 10px;
+          padding: 7px 12px;
 
           .line {
-            height: 3px;
+            height: 2px;
             width: 100%;
             background: $color-white;
             transition: all 0.3s ease-in-out;
@@ -120,7 +141,7 @@ nav {
         &.mobile-nav-active {
           .line {
             &:first-child {
-              transform: rotate(45deg) translate(7px, 6px);
+              transform: rotate(45deg) translate(5px, 6px);
             }
 
             &:nth-child(2) {
@@ -128,7 +149,7 @@ nav {
             }
 
             &:last-child {
-              transform: rotate(-45deg) translate(6px, -6px);
+              transform: rotate(-45deg) translate(5px, -6px);
             }
           }
         }
@@ -183,12 +204,6 @@ nav {
 
       .bottom {
         padding: 0 70px;
-      }
-    }
-    
-    @include sma-screen {
-      .bottom {
-        padding: 0 50px;
 
         .nav-links {
           display: none;
@@ -197,6 +212,12 @@ nav {
         .mobile-toggler {
           display: block;
         }
+      }
+    }
+
+    @include sma-screen {
+      .bottom {
+        padding: 0 50px;
       }
     }
 
@@ -217,6 +238,7 @@ nav {
     transform: translateX(-100vh);
     opacity: 0;
     transition: all 0.3s ease-in-out;
+    box-shadow: $color-boxShadow;
 
     .mobile-navigation-container {
       padding: 30px;
@@ -226,9 +248,9 @@ nav {
         position: absolute;
         right: 30px;
         top: 30px;
-        width: 40px;
-        height: 40px;
-        padding: 10px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -293,7 +315,6 @@ nav {
           gap: 10px;
 
           li {
-            font-size: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -304,6 +325,11 @@ nav {
             padding: 5px;
             background: $color-white;
             color: $color-primary;
+
+            svg {
+              height: 15px;
+              width: 15px;
+            }
           }
         }
       }
@@ -364,6 +390,20 @@ nav {
 
         .md-logo {
           display: block;
+        }
+
+        .nav-links {
+          ul {
+            li {
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                color: $color-primary;
+              }
+              &.current {
+                color: $color-primary;
+              }
+            }
+          }
         }
       }
     }

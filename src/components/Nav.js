@@ -1,10 +1,11 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const path = useLocation().pathname
 
   window.onscroll = () => {
     window.scrollY > 180 ? setScroll(true) : setScroll(false);
@@ -15,8 +16,11 @@ const Nav = () => {
       <div className="nav-container ">
         <div className="bg-logo">
           <Link to="/">
-            <h1>SC</h1>
+            <img src="/images/sc-long.png" alt="Shining Class"/>
           </Link>
+          {/* <Link to="/">
+            <img src="/images/sc-icon-c.png" alt="Shining Class" />
+          </Link> */}
         </div>
         <div className="top">
           <div className="con-soc">
@@ -67,28 +71,25 @@ const Nav = () => {
             </div>
           </div>
         </div>
-        <div
-          
-          className="bottom"
-        >
+        <div className="bottom">
           <div className="md-logo">
             <Link to="/">
-              <h1>SC</h1>
+              <img src={scroll ? "/images/sc-long-0.png" :"/images/sc-long.png"} alt="" />
             </Link>
           </div>
           <div className="nav-links">
             <ul>
               <Link to="">
-                <li>Home</li>
+                <li className={`${path === "/" ? "current" : ""}`}>Home</li>
               </Link>
-              <Link to="">
-                <li>About Us</li>
+              <Link to="/about">
+                <li className={`${path === "/about" ? "current" : ""}`}>About Us</li>
               </Link>
-              <Link to="">
-                <li>Our Team</li>
+              <Link to="/our-team">
+                <li className={`${path === "/our-team" ? "current" : ""}`}>Our Team</li>
               </Link>
-              <Link to="">
-                <li>Contact</li>
+              <Link to="/contact">
+                <li className={`${path === "/contact" ? "current" : ""}`}>Contact</li>
               </Link>
             </ul>
           </div>
@@ -137,7 +138,7 @@ const Nav = () => {
             <ul>
               <Link to="">
                 <li>
-                  <Icon icon="ri:facebook-fill" />
+                  <Icon icon={"ri:facebook-fill"} />
                 </li>
               </Link>
               <Link to="">
@@ -147,12 +148,12 @@ const Nav = () => {
               </Link>
               <Link to="">
                 <li>
-                  <Icon icon="akar-icons:linkedin-fill" />
+                  <Icon icon={"akar-icons:linkedin-fill"} />
                 </li>
               </Link>
               <Link to="">
                 <li>
-                  <Icon icon="pajamas:twitter" />
+                  <Icon icon={"pajamas:twitter"} />
                 </li>
               </Link>
             </ul>
