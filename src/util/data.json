@@ -166,6 +166,12 @@
             "settings": {
               "slidesToShow": 3
             }
+          },
+          {
+            "breakpoint": 567,
+            "settings": {
+              "slidesToShow": 2
+            }
           }
         ]
       },
