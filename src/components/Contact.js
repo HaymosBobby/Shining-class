@@ -4,16 +4,25 @@ const Contact = () => {
   return (
     <section className="contacts">
       <div className="contacts-heading">
-        <h4>Contact</h4>
-        <h2>Get in touch</h2>
-        <p>
+        <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          Contact
+        </h4>
+        <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          Get in touch
+        </h2>
+        <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
           Ready to take your mining operations to the next level? We can't wait
           to hear from you and provide the personalized support you need to
           achieve success in the mining industry
         </p>
       </div>
       <div className="contacts-container">
-        <div className="contact">
+        <div
+          data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          className="contact"
+        >
           <div className="icon">
             <Icon icon="bi:envelope" />
           </div>
@@ -25,7 +34,12 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="contact">
+        <div
+          className="contact"
+          data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="400"
+        >
           <div className="icon">
             {/* <Icon icon="bx:phone-call" /> */}
             <Icon icon="ph:phone-call" />{" "}
@@ -38,7 +52,12 @@ const Contact = () => {
             </p>
           </div>
         </div>
-        <div className="contact">
+        <div
+          className="contact"
+          data-aos="fade-left"
+          data-aos-duration="800"
+          data-aos-delay="500"
+        >
           <div className="icon">
             <Icon icon="ion:location-outline" />
           </div>

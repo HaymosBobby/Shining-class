@@ -5,13 +5,28 @@ const Expert = () => {
     <section className="expert">
       <div className="expert-container">
         <div className="content">
-          <h1>Hire our team of experts</h1>
-          <p>
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
+            Hire our team of experts
+          </h1>
+          <p data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
             Don't hesitate to hire our exceptional team and unlock the full
             potential of your mining operations. Together, we can achieve
             greatness.
           </p>
-          <Link to={"/"}><button className="btn">Contact us</button></Link>
+          <Link to={"/"}>
+            <button
+              className="btn"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              Contact us
+            </button>
+          </Link>
         </div>
       </div>
     </section>

@@ -5,9 +5,13 @@ const Projects = () => {
     <section className="projects">
       <div className="projects-container">
         <div className="project-heading">
-          <h4>Our works</h4>
-          <h2>Latest Projects</h2>
-          <p>
+          <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+            Our works
+          </h4>
+          <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            Latest Projects
+          </h2>
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
             Discover our impressive mining projects, showcasing our expertise in
             extracting valuable resources sustainably and efficiently. Explore
             our latest ventures and see how we're shaping the future of the
