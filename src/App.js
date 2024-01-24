@@ -10,7 +10,7 @@ import AboutPage from "./pages/AboutPage";
 
 function App() {
   useEffect(() => {
-    Aos.init({ once: true });
+    Aos.init({ easing: "ease-out-cubic" });
   }, []);
 
   return (

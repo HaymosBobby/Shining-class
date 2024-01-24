@@ -251,5 +251,27 @@
         "category": "Exploration"
       }
     ]
+  },
+  "contactData": {
+    "contactTitle": "Contact",
+    "contactSubTitle": "Get in touch",
+    "contactDescription": "Ready to take your mining operations to the next level? We can't wait to hear from you and provide the personalized support you need to achieve success in the mining industry!",
+    "contactsData": [
+      {
+        "icon": "bi:envelope",
+        "title": "Email",
+        "description": " suppot@shiningclass.com <br /> info@shiningclass.com"
+      },
+      {
+        "icon": "ph:phone-call",
+        "title": "Phone",
+        "description": "+234 803 3333 333 <br /> +234 803 3333 333"
+      },
+      {
+        "icon": "ion:location-outline",
+        "title": "Address",
+        "description": "Zion City, Olorunda Abaa <br /> Ibadan, Oyo State"
+      }
+    ]
   }
 }

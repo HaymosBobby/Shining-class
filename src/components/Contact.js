@@ -11,9 +11,7 @@ const Contact = () => {
           Get in touch
         </h2>
         <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-          Ready to take your mining operations to the next level? We can't wait
-          to hear from you and provide the personalized support you need to
-          achieve success in the mining industry
+          
         </p>
       </div>
       <div className="contacts-container">

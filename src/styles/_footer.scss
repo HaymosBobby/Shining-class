@@ -116,6 +116,7 @@ footer {
                 width: 70%;
                 border: none;
                 @include hidden;
+                border-radius: 0;
 
                 &:focus {
                   outline: none;
@@ -177,5 +178,3 @@ footer {
     }
   }
 }
-
-
