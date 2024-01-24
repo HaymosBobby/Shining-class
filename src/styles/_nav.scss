@@ -356,6 +356,13 @@ nav {
     }
   }
 
+  &.bgd-dark {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #313853;
+  }
+
   &.sticky {
     position: fixed;
     // background: $color-primary-hover;

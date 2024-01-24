@@ -5,18 +5,23 @@ import { Link, useLocation } from "react-router-dom";
 const Nav = () => {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const [scroll, setScroll] = useState(false);
-  const path = useLocation().pathname
+  const path = useLocation().pathname;
 
   window.onscroll = () => {
     window.scrollY > 180 ? setScroll(true) : setScroll(false);
   };
 
   return (
-    <nav className={`${scroll ? "sticky" : ""}`}>
+    <nav
+      className={`${scroll ? "sticky" : ""} ${path !== "/" ? "bgd-dark" : ""}`}
+    >
       <div className="nav-container ">
         <div className="bg-logo">
           <Link to="/">
-            <img src="/images/sc-long.png" alt="Shining Class"/>
+            <img
+              src={path !== "/" ? "/images/sc-long-0.png" : "/images/sc-long.png"}
+              alt="Shining Class"
+            />
           </Link>
           {/* <Link to="/">
             <img src="/images/sc-icon-c.png" alt="Shining Class" />
@@ -74,7 +79,10 @@ const Nav = () => {
         <div className="bottom">
           <div className="md-logo">
             <Link to="/">
-              <img src={scroll ? "/images/sc-long-0.png" :"/images/sc-long.png"} alt="" />
+              <img
+                src={scroll ? "/images/sc-long-0.png" : "/images/sc-long.png"}
+                alt=""
+              />
             </Link>
           </div>
           <div className="nav-links">
@@ -83,13 +91,19 @@ const Nav = () => {
                 <li className={`${path === "/" ? "current" : ""}`}>Home</li>
               </Link>
               <Link to="/about">
-                <li className={`${path === "/about" ? "current" : ""}`}>About Us</li>
+                <li className={`${path === "/about" ? "current" : ""}`}>
+                  About Us
+                </li>
               </Link>
               <Link to="/our-team">
-                <li className={`${path === "/our-team" ? "current" : ""}`}>Our Team</li>
+                <li className={`${path === "/our-team" ? "current" : ""}`}>
+                  Our Team
+                </li>
               </Link>
               <Link to="/contact">
-                <li className={`${path === "/contact" ? "current" : ""}`}>Contact</li>
+                <li className={`${path === "/contact" ? "current" : ""}`}>
+                  Contact
+                </li>
               </Link>
             </ul>
           </div>

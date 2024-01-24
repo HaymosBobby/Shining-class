@@ -8,14 +8,15 @@ import Testimonial from "../components/Testimonial";
 import data from "../util/data.json";
 
 const Home = () => {
-  const { sliderData, aboutData, servicesData, testimonialsData } = data;
+  const { sliderData, aboutData, servicesData, testimonialsData, projectData } =
+    data;
   return (
     <main>
       <Hero data={sliderData.heroData} />
       <About aboutData={aboutData} />
       <Services servicesData={servicesData} />
       <Testimonial testimonialsData={testimonialsData} />
-      <Projects />
+      <Projects projectData={projectData} />
       <Expert />
       <Contact />
     </main>

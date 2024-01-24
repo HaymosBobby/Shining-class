@@ -19,8 +19,14 @@ const Services = ({ servicesData }) => {
         </div>
       </div>
       <div className="services-container">
-        {serviceData.map((item, inder) => (
-          <div className="service">
+        {serviceData.map((item, index) => (
+          <div
+            className="service"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="300"
+            key={index}
+          >
             <div className="icon">
               <Icon icon={item.icon} />
             </div>
