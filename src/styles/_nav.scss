@@ -1,6 +1,5 @@
 nav {
   background: #00000004;
-
   width: 100%;
   position: absolute;
   top: 0;
@@ -360,15 +359,18 @@ nav {
     position: relative;
     top: 0;
     left: 0;
+    right: 0;
     background: #313853;
+    @include current;
   }
 
   &.sticky {
     position: fixed;
     // background: $color-primary-hover;
-    background: #3b2929;
+    // background: #3b2929;
     background: #313853;
     animation: fade-down 0.5s ease-in-out;
+    @include current;
 
     @keyframes fade-down {
       from {
@@ -398,20 +400,6 @@ nav {
 
         .md-logo {
           display: block;
-        }
-
-        .nav-links {
-          ul {
-            li {
-              transition: all 0.3s ease-in-out;
-              &:hover {
-                color: $color-primary;
-              }
-              &.current {
-                color: $color-primary;
-              }
-            }
-          }
         }
       }
     }

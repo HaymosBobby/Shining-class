@@ -5,10 +5,11 @@
     padding: 100px;
     background: linear-gradient(#00000080, #00000040),
       rgba(0, 0, 0, 0.6) url("../../public/images/pit.jpg");
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
     height: 500px;
 
     .services-heading {

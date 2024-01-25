@@ -31,7 +31,9 @@ const Projects = ({ projectData }) => {
                 <h3>{item.title}</h3>
                 <h4>{item.category}</h4>
                 <div className="view-more">
-                  <button>View more</button>
+                  <Link to="/">
+                    <button>View more</button>
+                  </Link>
                 </div>
               </div>
             </div>

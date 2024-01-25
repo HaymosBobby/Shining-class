@@ -1,0 +1,13 @@
+.services-page {
+  .services-page-container {
+    padding: 100px;
+    @include padding;
+
+    .services-page-heading {
+      @include heading;
+      text-align: center;
+      width: 60%;
+      margin: auto;
+    }
+  }
+}

@@ -46,6 +46,7 @@
     line-height: 1.2;
     color: $color-primary;
     text-transform: capitalize;
+    font-family: "Playfair Display", serif;
   }
 }
 
@@ -59,5 +60,25 @@
 
   @include xma-screen {
     padding: 60px 20px;
+  }
+}
+
+@mixin current {
+  .nav-container {
+    .bottom {
+      .nav-links {
+        ul {
+          li {
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              color: $color-primary;
+            }
+            &.current {
+              color: $color-primary;
+            }
+          }
+        }
+      }
+    }
   }
 }

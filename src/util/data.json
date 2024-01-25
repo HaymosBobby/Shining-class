@@ -273,5 +273,57 @@
         "description": "Zion City, Olorunda Abaa <br /> Ibadan, Oyo State"
       }
     ]
+  },
+  "teamData": {
+    "useFor": "team",
+    "settings": {
+      "infinite": true,
+      "speed": 1000,
+      "autoplay": true,
+      "autoplaySpeed": 3000,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1
+          }
+        }
+      ]
+    },
+    "info": [
+      {
+        "name": "Akinbobola Adebayo",
+        "position": "Chairman",
+        "imgLink": "/images/avatar-1.jpg"
+      },
+      {
+        "name": "Inioluwa Akinbobola",
+        "position": "CEO, Chief Executive Officer",
+        "imgLink": "/images/avatar-2.jpg"
+      },
+      {
+        "name": "Halleluyah Akinbobola",
+        "position": "Project Manager",
+        "imgLink": "/images/avatar-3.jpg"
+      },
+      {
+        "name": "Akinlabi Akintunde",
+        "position": "GM, General Manager",
+        "imgLink": "/images/avatar-4.jpg"
+      },
+      {
+        "name": "Leke Akande",
+        "position": "Mining manager",
+        "imgLink": "/images/engineer.jpg"
+      }
+    ]
   }
 }

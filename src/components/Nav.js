@@ -19,7 +19,11 @@ const Nav = () => {
         <div className="bg-logo">
           <Link to="/">
             <img
-              src={path !== "/" ? "/images/sc-long-0.png" : "/images/sc-long.png"}
+              src={
+                path !== "/"
+                  ? "/images/sc-long-0.png"
+                  : "/images/sc-long-wht.png"
+              }
               alt="Shining Class"
             />
           </Link>
@@ -80,7 +84,11 @@ const Nav = () => {
           <div className="md-logo">
             <Link to="/">
               <img
-                src={scroll ? "/images/sc-long-0.png" : "/images/sc-long.png"}
+                src={
+                  scroll || path !== "/"
+                    ? "/images/sc-long-0.png"
+                    : "/images/sc-long.png"
+                }
                 alt=""
               />
             </Link>
@@ -90,14 +98,14 @@ const Nav = () => {
               <Link to="">
                 <li className={`${path === "/" ? "current" : ""}`}>Home</li>
               </Link>
-              <Link to="/about">
-                <li className={`${path === "/about" ? "current" : ""}`}>
-                  About Us
+              <Link to="/company">
+                <li className={`${path === "/company" ? "current" : ""}`}>
+                  Company
                 </li>
               </Link>
-              <Link to="/our-team">
-                <li className={`${path === "/our-team" ? "current" : ""}`}>
-                  Our Team
+              <Link to="/services">
+                <li className={`${path === "/services" ? "current" : ""}`}>
+                  Services
                 </li>
               </Link>
               <Link to="/contact">
@@ -133,16 +141,16 @@ const Nav = () => {
           </div>
           <div className="mobile-nav-links">
             <ul>
-              <Link>
+              <Link to="/" onClick={() => setMobileNavOpen(false)}>
                 <li>Home</li>
               </Link>
-              <Link>
-                <li>About Us</li>
+              <Link to="/company" onClick={() => setMobileNavOpen(false)}>
+                <li>Company</li>
               </Link>
-              <Link>
-                <li>Our Team</li>
+              <Link to="/services" onClick={() => setMobileNavOpen(false)}>
+                <li>Services</li>
               </Link>
-              <Link>
+              <Link to="/contact" onClick={() => setMobileNavOpen(false)}>
                 <li>Contact</li>
               </Link>
             </ul>

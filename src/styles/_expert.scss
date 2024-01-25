@@ -8,10 +8,15 @@
   justify-content: center;
   background: linear-gradient(#00000060, #00000060),
     #00000099 url("../../public/images/mine-blue.jpg");
-  background-repeat: no-repeat !important;
-  background-position: center !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  // -webkit-transition: background 3s ease-in-out;
+  // -moz-transition: background 3s ease-in-out;
+  // -ms-transition: background 3s ease-in-out;
+  // -o-transition: background 3s ease-in-out;
 
   .expert-container {
     display: flex;

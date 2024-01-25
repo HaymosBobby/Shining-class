@@ -4,15 +4,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.scss";
 import SingleTestimonial from "./SingleTestimonial";
 import Brand from "./Brand";
+import TeamMember from "./TeamMember";
 
 const Carousel = ({ data }) => {
   const { useFor, info, settings } = data;
   if (useFor === "hero") {
     return (
       <Slider {...settings}>
-        {info.map((element, index) => {
-          return <HeroComp element={element} key={index} />;
-        })}
+        {info.map((element, index) => (
+          <HeroComp element={element} key={index} />
+        ))}
       </Slider>
     );
   } else if (useFor === "testimonial") {
@@ -28,6 +29,14 @@ const Carousel = ({ data }) => {
       <Slider {...settings}>
         {info.map((element, index) => (
           <Brand key={index} brandLogo={element.imgLink} />
+        ))}
+      </Slider>
+    );
+  } else if (useFor === "team") {
+    return (
+      <Slider {...settings}>
+        {info.map((element, index) => (
+          <TeamMember key={index} element={element} />
         ))}
       </Slider>
     );

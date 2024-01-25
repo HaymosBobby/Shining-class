@@ -6,11 +6,12 @@ import "./styles/app.scss";
 import { Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "./components/Footer";
-import AboutPage from "./pages/AboutPage";
+import Company from "./pages/Company";
+import Services from "./pages/Services";
 
 function App() {
   useEffect(() => {
-    Aos.init({ easing: "ease-out-cubic" });
+    Aos.init({ easing: "ease-in-cubic", offset: 200 });
   }, []);
 
   return (
@@ -20,7 +21,8 @@ function App() {
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
-          <Route path="about" element={<AboutPage />} />
+          <Route path="company" element={<Company />} />
+          <Route path="services" element={<Services />} />
         </Route>
       </Routes>
 
