@@ -50,7 +50,7 @@ const Nav = () => {
               src={
                 path !== "/"
                   ? "/images/sc-long-0.png"
-                  : "/images/sc-long-wht.png"
+                  : "/images/sc-long.png"
               }
               alt="Shining Class"
             />
