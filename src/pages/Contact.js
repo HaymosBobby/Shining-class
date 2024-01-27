@@ -11,7 +11,7 @@ const Contact = () => {
           <h4>Contact us</h4>
           <h2>Drop us a line</h2>
           <p>
-            We're thrilles to hear from you. Have any queations, feedback, or
+            We're thrilled to hear from you. Have any questions, feedback, or
             inquiries, please don't hesitate to reach out to us. Our friendly
             team is here to assist you.
           </p>
