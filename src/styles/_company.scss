@@ -7,12 +7,7 @@
       @include heading;
 
       text-align: center;
-      width: 60%;
       margin: auto;
-
-      p {
-        margin-bottom: 30px;
-      }
     }
     .content-container {
       display: flex;
@@ -69,7 +64,6 @@
       .team-heading {
         @include heading;
         text-align: center;
-        width: 60%;
         margin: auto;
       }
 
@@ -127,24 +121,15 @@
         .slick-prev::before,
         .slick-next::before {
           // color: $color-primary;
-          color: #313853;
+          color: $color-primary;
           opacity: 1;
           font-size: 2rem;
         }
       }
     }
     @include sma-screen {
-      .about-page-heading {
-        width: 100%;
-      }
       .content-container {
         flex-direction: column-reverse;
-      }
-
-      .team-container {
-        .team-heading {
-          width: 100%;
-        }
       }
     }
   }

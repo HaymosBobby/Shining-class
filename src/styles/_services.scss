@@ -11,24 +11,13 @@
     background-size: cover;
     background-blend-mode: multiply;
     height: 500px;
+    @include padding;
 
     .services-heading {
-      width: 60%;
       @include heading;
-      line-height: 1.5;
-
-      p {
-        margin-top: 30px;
-        font-size: 1.1rem;
-      }
     }
 
-    @include padding;
-    @include sma-screen {
-      .services-heading {
-        width: 100%;
-      }
-    }
+   
   }
   .services-container {
     padding: 0 100px;

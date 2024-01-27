@@ -1,5 +1,5 @@
 import About from "../components/About";
-import Contact from "../components/Contact";
+import Contacts from "../components/Contacts";
 import Expert from "../components/Expert";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
@@ -18,7 +18,7 @@ const Home = () => {
       <Testimonial testimonialsData={testimonialsData} />
       <Projects projectData={projectData} />
       <Expert />
-      <Contact />
+      <Contacts />
     </main>
   );
 };

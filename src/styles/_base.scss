@@ -7,11 +7,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: $fontFamily;
   overflow-x: hidden;
+  color: #313853;
 }
 
 ul {
@@ -38,6 +40,59 @@ h6 {
   color: inherit;
   display: inline-block;
 }
+
+.cs-cursor_lg,
+.cs-cursor_sm {
+  position: fixed;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
+.cs-cursor_lg {
+  width: 40px;
+  height: 40px;
+  // background: blue;
+  // border: 1px solid $px-white;
+  border: 1px solid $color-primary;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transition: 0.25s;
+}
+.cs-cursor_sm {
+  width: 10px;
+  height: 10px;
+  // background: red;
+  left: 15px;
+  top: 15px;
+  pointer-events: none;
+  transition: all 0.15s ease;
+}
+@media screen and (max-width: 575px) {
+  .cs-cursor_lg,
+  .cs-cursor_sm {
+    display: none;
+  }
+}
+// .index-module_type__E-SaG::after {
+//   position: relative;
+//   top: -5px;
+// }
+// @keyframes rotate360 {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+// @keyframes animo-x {
+//   50% {
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     transform: translateX(35px);
+//   }
+// }
 
 // .parallax-container {
 //   height: 100vh;

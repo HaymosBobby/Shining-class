@@ -5,19 +5,6 @@
   .projects-container {
     .project-heading {
       @include heading;
-      line-height: 1.5;
-
-      h2 {
-        margin-bottom: 20px;
-      }
-
-      p {
-        width: 70%;
-        font-size: 1.1rem;
-        @include sma-screen {
-          width: 100%;
-        }
-      }
     }
 
     .project-container {
@@ -31,7 +18,7 @@
         color: $color-white;
         flex: 0 0 23%;
         position: relative;
-        min-height: 200px;
+        height: 300px;
         @include hidden;
         transition: all 0.2s ease-in-out;
         box-shadow: 0 0 6px #00000080;
