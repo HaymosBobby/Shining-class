@@ -16,8 +16,6 @@
     .services-heading {
       @include heading;
     }
-
-   
   }
   .services-container {
     padding: 0 100px;
@@ -30,7 +28,8 @@
 
     .service {
       border: 1px solid $color-white;
-      background: $color-primary;
+      color: $color-primary;
+      background: $color-white;
       flex: 0 0 28%;
       padding: 50px 20px;
       box-shadow: 1px 1px 10px #00000080;
@@ -48,8 +47,8 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        background: $color-white;
-        color: $color-primary;
+        background: $color-primary;
+        color: $color-white;
         padding: 5px;
         align-self: center;
       }
