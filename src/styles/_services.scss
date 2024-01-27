@@ -28,7 +28,7 @@
 
     .service {
       border: 1px solid $color-white;
-      color: $color-primary;
+      color: $color-secondary;
       background: $color-white;
       flex: 0 0 28%;
       padding: 50px 20px;
@@ -47,7 +47,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        background: $color-primary;
+        background: $color-secondary;
         color: $color-white;
         padding: 5px;
         align-self: center;
