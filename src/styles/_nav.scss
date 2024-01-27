@@ -360,7 +360,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background: #313853;
+    background: $color-secondary;
     @include current;
   }
 
@@ -368,7 +368,7 @@ nav {
     position: fixed;
     // background: $color-primary-hover;
     // background: #3b2929;
-    background: #313853;
+    background: $color-secondary;
     animation: fade-down 0.5s ease-in-out;
     @include current;
 
