@@ -8,7 +8,7 @@ const AboutPage = () => {
   const { teamData } = data;
   return (
     <main className="about-page">
-      <Header title={"Company"} />
+      <Header title={"Company"} project={false} />
 
       <div className="about-page-container">
         <div className="about-page-heading">

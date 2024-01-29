@@ -29,8 +29,6 @@ const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       window.scrollY > 180 ? setScroll(true) : setScroll(false);
-      console.log(window.scrollY);
-      console.log(scroll);
     };
     window.addEventListener("scroll", handleScroll);
 
@@ -48,9 +46,7 @@ const Nav = () => {
           <Link to="/">
             <img
               src={
-                path !== "/"
-                  ? "/images/sc-long-0.png"
-                  : "/images/sc-long.png"
+                path !== "/" ? "/images/sc-long-0.png" : "/images/sc-long.png"
               }
               alt="Shining Class"
             />

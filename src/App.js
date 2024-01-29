@@ -8,10 +8,11 @@ import Company from "./pages/Company";
 import Service from "./pages/Service";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
+import Project from "./pages/Project";
 
 function App() {
   useEffect(() => {
-    Aos.init({ once: true, offset: 200 });
+    Aos.init({ once: true });
   }, []);
 
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="company" element={<Company />} />
           <Route path="services" element={<Service />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="projects/:title/:id" element={<Project />} />
         </Route>
       </Routes>
     </div>

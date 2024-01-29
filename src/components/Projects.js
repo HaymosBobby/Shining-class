@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const Projects = ({ projectData }) => {
   const { projectTitle, projectSubTitle, projectDescription, projectsData } =
     projectData;
+
   return (
     <section className="projects">
       <div className="projects-container">
@@ -21,6 +22,7 @@ const Projects = ({ projectData }) => {
         <div className="project-container">
           {projectsData.map((item, index) => (
             <div
+              key={index}
               className="project"
               data-aos="fade-up"
               data-aos-duration="800"
@@ -31,7 +33,7 @@ const Projects = ({ projectData }) => {
                 <h3>{item.title}</h3>
                 <h4>{item.category}</h4>
                 <div className="view-more">
-                  <Link to="/">
+                  <Link to={`/projects/${item.title}/${item.id}`}>
                     <button>View more</button>
                   </Link>
                 </div>

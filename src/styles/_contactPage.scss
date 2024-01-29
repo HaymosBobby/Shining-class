@@ -59,6 +59,22 @@
               min-width: 200px;
             }
           }
+
+          .btn {
+            padding: 15px 40px;
+            border: 1px solid $color-white;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            background: $color-primary;
+            color: $color-white;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            border-radius: 5px;
+
+            &:hover {
+              background: $color-primary-hover;
+            }
+          }
         }
         .image {
           flex: 4;

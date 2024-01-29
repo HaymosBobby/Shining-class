@@ -206,49 +206,97 @@
         "id": "1",
         "imgLink": "/images/explosion.jpg",
         "title": "Explosive handling",
-        "category": "Extraction"
+        "category": "Extraction",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Green miners",
+        "engineer": "Halleluyah",
+        "service": "Gold extraction",
+        "date": "16-04-2022",
+        "location": "maldona"
       },
       {
         "id": "2",
         "imgLink": "/images/tunnel.jpg",
         "title": "Undercut protection",
-        "category": "Construction"
+        "category": "Construction",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
       },
       {
         "id": "3",
         "imgLink": "/images/pit.jpg",
         "title": "Corper crushing",
-        "category": "Processing"
+        "category": "Processing",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Blue miners",
+        "engineer": "Halleluyah",
+        "service": "Corper crushing",
+        "date": "20-09-2023",
+        "location": "ontario"
       },
       {
         "id": "4",
         "imgLink": "/images/dumpers.jpg",
         "title": "Drilling",
-        "category": "Extraction"
+        "category": "Extraction",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Blue miners",
+        "engineer": "Leke",
+        "service": "Research",
+        "date": "10-07-2022",
+        "location": "south africa"
       },
       {
         "id": "5",
         "imgLink": "/images/gold.jpeg",
         "title": "Gold mining",
-        "category": "Processing"
+        "category": "Processing",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Blue miners",
+        "engineer": "Leke",
+        "service": "Research",
+        "date": "10-07-2022",
+        "location": "south africa"
       },
       {
         "id": "6",
         "imgLink": "/images/filter.jpg",
         "title": "Filtering",
-        "category": "Processing"
+        "category": "Processing",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Blue miners",
+        "engineer": "Halleluyah",
+        "service": "Corper crushing",
+        "date": "20-09-2023",
+        "location": "ontario"
       },
       {
         "id": "7",
         "imgLink": "/images/dumper.jpg",
         "title": "Lithium mining",
-        "category": "Extraction"
+        "category": "Extraction",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
       },
       {
         "id": "8",
         "imgLink": "/images/gold-pit.jpg",
         "title": "Colombite research",
-        "category": "Exploration"
+        "category": "Exploration",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi labore eveniet corporis quibusdam reiciendis, minima nostrum, maiores odit aut dolorem praesentium vel explicabo voluptates vitae. Officia nam similique optio vero aliquid a ducimus facere nobis. Voluptate natus ad aliquam nam itaque, deserunt temporibus veritatis voluptates quisquam, neque, cumque magni iure perferendis sit consequatur dolores ducimus error earum sequi maxime cum voluptatem sint atque! Repellendus maxime aspernatur consequatur vel, illo similique reiciendis a impedit sint ex accusamus quis quas asperiores unde numquam ab optio voluptatem porro pariatur sunt. <br/> <br/> <br/> Delectus vitae, iusto ipsam neque sed, saepe iste tempore dolorum eos corporis libero velit quaerat nihil voluptate voluptates. Tenetur doloribus iusto repudiandae neque ea reprehenderit. Dicta neque totam sunt non obcaecati, fugiat unde voluptas est iure mollitia modi perspiciatis assumenda illum voluptatem eius sint beatae nulla illo nam voluptate reiciendis. Eaque, ducimus aliquam dolorem accusantium ullam aut consectetur iste excepturi fuga exercitationem. Pariatur alias itaque quod, aperiam magnam maxime corrupti velit adipisci iste at! Vitae illo dolorum, consequuntur dolor beatae fugiat atque? Necessitatibus velit quae consequatur soluta debitis? Velit minus ducimus maiores asperiores ut? Blanditiis beatae delectus nulla sint quod molestiae, sequi cumque tempore natus harum fuga odio assumenda dicta maxime obcaecati praesentium?",
+        "client": "Yellow miners",
+        "engineer": "Akinbobola",
+        "service": "Safety",
+        "date": "09-07-2021",
+        "location": "santorini"
       }
     ]
   },

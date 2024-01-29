@@ -8,7 +8,7 @@ const Services = () => {
   const scrollSpyOnce = useMemo(() => true, []);
   return (
     <main className="services-page">
-      <Header title={"Services"} />
+      <Header title={"Services"} project={false} />
 
       <div className="services-page-container">
         <div className="services-page-heading">

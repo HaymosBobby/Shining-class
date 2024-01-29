@@ -39,7 +39,9 @@ nav {
     .top {
       display: flex;
       justify-content: flex-end;
-      // height: 40px;
+      height: 40px;
+      overflow: hidden;
+
 
       .con-soc {
         background-color: $color-primary;
@@ -55,13 +57,13 @@ nav {
         .nav-contact {
           ul {
             li {
-              display: flex;
-              align-items: center;
-              justify-content: center;
+        
               gap: 10px;
             }
           }
         }
+
+        
 
         .nav-contact,
         .nav-socials {
@@ -72,6 +74,11 @@ nav {
             li {
               padding: 10px 15px;
               border-right: 0.5px solid $color-white;
+              height: 40px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 0.95rem;
             }
           }
         }
@@ -238,6 +245,7 @@ nav {
     opacity: 0;
     transition: all 0.3s ease-in-out;
     box-shadow: $color-boxShadow;
+    overflow-y: auto;
 
     .mobile-navigation-container {
       padding: 30px;

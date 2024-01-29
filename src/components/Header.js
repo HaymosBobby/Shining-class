@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
-const Header = ({ title }) => {
+const Header = ({ title, project, projectTitle }) => {
   return (
     <div className="header">
       <div className="header-container">
@@ -14,6 +14,11 @@ const Header = ({ title }) => {
             </Link>
           </span>
           |<span>{title}</span>
+          {project ? (
+            <>
+              | <span>{projectTitle}</span>
+            </>
+          ) : null}
         </div>
       </div>
     </div>

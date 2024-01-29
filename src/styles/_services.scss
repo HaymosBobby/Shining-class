@@ -35,7 +35,7 @@
       box-shadow: 1px 1px 10px #00000080;
       display: flex;
       flex-direction: column;
-      min-width: 280px;
+      min-width: 270px;
       transition: all 0.3s ease-in-out;
       .icon {
         font-size: 3rem;
@@ -68,14 +68,14 @@
     @include mid-screen {
       padding: 0 70px;
       .service {
-        flex: 0 0 45%;
-        min-width: 320px;
+        flex: 0 0 46%;
+        // min-width: 280px;
       }
     }
     @include sma-screen {
       padding: 0 50px;
       .service {
-        flex: 1;
+        flex: 0 0 100%;
       }
     }
 

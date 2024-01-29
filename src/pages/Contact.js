@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const Contact = () => {
   return (
     <main className="contact-page">
-      <Header title={"Contact"} />
+      <Header title={"Contact"} project={false} />
 
       <div className="contact-page-container">
         <div className="contact-page-heading">
@@ -65,6 +65,7 @@ const Contact = () => {
                   placeholder="Enter your message"
                 ></textarea>
               </div>
+              <button className="btn">Send Message</button>
             </form>
             <div className="image">
               <img src="/images/girly.jpg" alt="" />
