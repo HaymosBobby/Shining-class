@@ -14,7 +14,7 @@ const Services = ({ servicesData }) => {
             {serviceSubTitle}
           </h2>
           <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            {serviceDescription}
+            {serviceDescription} 
           </p>
         </div>
       </div>
@@ -22,9 +22,9 @@ const Services = ({ servicesData }) => {
         {serviceData.map((item, index) => (
           <div
             className="service"
-            data-aos="fade-up"
+            data-aos="fade-left"
             data-aos-duration="800"
-            data-aos-delay="300"
+            data-aos-delay="100"
             key={index}
           >
             <div className="icon">

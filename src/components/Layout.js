@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Preloader from "./Preloader";
 import CustomCursor from "./CustomCursor";
 import { useEffect, useState } from "react";
+import ScrollTop from "./ScrollTop";
 
 const Layout = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -25,6 +26,7 @@ const Layout = () => {
           <CustomCursor />
           <Nav />
           <Outlet />
+          <ScrollTop />
           <Footer />
         </>
       )}

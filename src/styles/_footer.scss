@@ -155,11 +155,17 @@ footer {
     background: $color-primary;
 
     .slick-slider {
-      padding: 10px 0;
-      .slide {
-        display: flex;
-        align-items: center;
-        gap: 5px;
+      .slick-slide {
+        padding: 10px;
+        .slide {
+          display: flex;
+          align-items: center;
+          a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+        }
       }
     }
   }

@@ -26,7 +26,7 @@ const Projects = ({ projectData }) => {
               className="project"
               data-aos="fade-up"
               data-aos-duration="800"
-              data-aos-delay="300"
+              data-aos-delay="100"
             >
               <img src={item.imgLink} alt={item.title} />
               <div className="content">

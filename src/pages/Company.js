@@ -100,8 +100,9 @@ const AboutPage = () => {
             <h4>Our </h4>
             <h2>Team members</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptate laborum ipsam quo.
+              Meet our exclusive members. Connect with fellow mining industry
+              professionals, access valuable resources, and unlock networking
+              opportunities.
             </p>
           </div>
           <div className="team-wrapper">

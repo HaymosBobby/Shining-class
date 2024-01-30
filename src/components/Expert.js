@@ -35,7 +35,7 @@ const Expert = () => {
             potential of your mining operations. Together, we can achieve
             greatness.
           </p>
-          <Link to={"/"}>
+          <Link to="/contact">
             <button
               className="btn"
               data-aos="fade-up"

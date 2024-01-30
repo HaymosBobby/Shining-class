@@ -46,7 +46,9 @@ const Nav = () => {
           <Link to="/">
             <img
               src={
-                path !== "/" ? "/images/sc-long-0.png" : "/images/sc-long.png"
+                path !== "/"
+                  ? "/images/sc-long-0.png"
+                  : "/images/sc-long-wht.png"
               }
               alt="Shining Class"
             />
@@ -59,20 +61,20 @@ const Nav = () => {
           <div className="con-soc">
             <div className="nav-contact">
               <ul>
-                <Link to="">
+                <Link to="tel: +2348055666633">
                   <li>
-                    <Icon icon="bi:telephone-fill" hFlip={true} /> +234 333 3333
-                    333
+                    <Icon icon="bi:telephone-fill" hFlip={true} /> +234 805 5666
+                    633
                   </li>
                 </Link>
-                <Link to="">
+                <Link to="tel: +2348055666633">
                   <li>
-                    <Icon icon="bi:phone-fill" hFlip={true} /> +234 803 3333 333
+                    <Icon icon="bi:phone-fill" hFlip={true} /> +234 805 5666 633
                   </li>
                 </Link>
-                <Link to="">
+                <Link to="mailto: info@shiningclass.com">
                   <li>
-                    <Icon icon="bi:envelope" hFlip={true} />{" "}
+                    <Icon icon="bi:envelope" hFlip={true} />
                     info@shiningclass.com
                   </li>
                 </Link>
@@ -80,22 +82,22 @@ const Nav = () => {
             </div>
             <div className="nav-socials">
               <ul>
-                <Link to="">
+                <Link to="https://www.facebook.com">
                   <li>
                     <Icon icon={"bi:facebook"} />
                   </li>
                 </Link>
-                <Link to="">
+                <Link to="https://www.instagram.com">
                   <li>
                     <Icon icon={"bi:instagram"} />
                   </li>
                 </Link>
-                <Link to="">
+                <Link to="https://www.linkedin.com">
                   <li>
                     <Icon icon={"bi:linkedin"} />
                   </li>
                 </Link>
-                <Link to="">
+                <Link to="https://www.twitter.com">
                   <li>
                     <Icon icon={"bi:twitter-x"} />
                   </li>
@@ -111,7 +113,7 @@ const Nav = () => {
                 src={
                   scroll || path !== "/"
                     ? "/images/sc-long-0.png"
-                    : "/images/sc-long.png"
+                    : "/images/sc-long-wht.png"
                 }
                 alt=""
               />
@@ -182,22 +184,22 @@ const Nav = () => {
 
           <div className="mobile-socials">
             <ul>
-              <Link to="">
+              <Link to="https://www.facebook.com">
                 <li>
                   <Icon icon={"ri:facebook-fill"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.instagram.com">
                 <li>
                   <Icon icon={"bi:instagram"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.linkedin.com">
                 <li>
                   <Icon icon={"akar-icons:linkedin-fill"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.twitter.com">
                 <li>
                   <Icon icon={"pajamas:twitter"} />
                 </li>

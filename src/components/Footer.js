@@ -44,22 +44,22 @@ const Footer = () => {
               endeavors.
             </p>
             <ul>
-              <Link to="">
+              <Link to="https://www.facebook.com">
                 <li>
                   <Icon icon={"ri:facebook-fill"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.instagram.com">
                 <li>
                   <Icon icon={"bi:instagram"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.linkedin.com">
                 <li>
                   <Icon icon={"akar-icons:linkedin-fill"} />
                 </li>
               </Link>
-              <Link to="">
+              <Link to="https://www.twitter.com">
                 <li>
                   <Icon icon={"pajamas:twitter"} />
                 </li>
@@ -102,38 +102,51 @@ const Footer = () => {
         <Slider {...settings}>
           <div>
             <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
+              <Link to="tel: +2348055666633">
+                <Icon icon="ph:phone-call" />
+                <span>+234 805 5666 633</span>
+              </Link>
+            </div>
+          </div>
+
+          <div>
+            <div className="slide">
+              <Link to="mailto: sccginvestmentltd@gmail.com">
+                <Icon icon="bi:envelope" hFlip={true} />
+                <span>sccginvestmentltd@gmail.com</span>
+              </Link>
             </div>
           </div>
           <div>
             <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
+              <Link to="tel: +2348055666633">
+                <Icon icon="ph:phone-call" />
+                <span>+234 805 5666 633</span>
+              </Link>
             </div>
           </div>
           <div>
             <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
+              <Link to="mailto: info@shiningclass.com">
+                <Icon icon="bi:envelope" hFlip={true} />
+                <span>info@shiningclass.com</span>
+              </Link>
             </div>
           </div>
           <div>
             <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
+              <Link to="+2348055666633">
+                <Icon icon="ph:phone-call" />
+                <span>+234 805 5666 633</span>
+              </Link>
             </div>
           </div>
           <div>
             <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
-            </div>
-          </div>
-          <div>
-            <div className="slide">
-              <Icon icon="ph:phone-call" />
-              <span>+234 803 3333 333</span>
+              <Link to="support@shiningclass.com">
+                <Icon icon="bi:envelope" hFlip={true} />
+                <span>support@shiningclass.com</span>
+              </Link>
             </div>
           </div>
         </Slider>

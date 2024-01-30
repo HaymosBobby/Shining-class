@@ -36,7 +36,7 @@
 @mixin heading {
   margin-bottom: 20px;
   line-height: 1.5;
-  width: 70%;
+  width: 80%;
 
   h4 {
     font-size: 1rem;
@@ -58,6 +58,10 @@
 
   @include sma-screen {
     width: 100%;
+
+    p {
+      font-size: 1rem;
+    }
   }
 }
 

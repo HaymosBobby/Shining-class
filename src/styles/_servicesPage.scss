@@ -17,7 +17,7 @@
       justify-content: space-between;
 
       .service-box {
-        flex: 1 0 23%;
+        flex: 1 0 29%;
         min-width: 250px;
         margin-bottom: 30px;
         box-shadow: $color-boxShadow;
@@ -117,7 +117,7 @@
     @include padding;
 
     .counter-wrapper {
-      width: 80%;
+      width: 95%;
       margin: auto;
       display: flex;
       justify-content: space-between;
@@ -142,7 +142,13 @@
 
         .counter {
           font-size: 2.5rem;
-          font-weight: 700;
+          font-weight: 600;
+          // font-family: "Playfair Display", serif;
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 1rem;
         }
 
         &:hover {

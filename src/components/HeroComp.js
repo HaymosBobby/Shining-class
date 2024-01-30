@@ -38,10 +38,10 @@ const HeroComp = ({ element }) => {
               data-aos-delay="300"
               data-aos-offset="0"
             >
-              <Link>
+              <Link to="/services">
                 <button className="btn btn-pry">Exlpore</button>
               </Link>
-              <Link>
+              <Link to="/contact">
                 <button className="btn btn-sec">Contact</button>
               </Link>
             </div>
@@ -79,7 +79,7 @@ export default HeroComp;
 //           <Link>
 //             <button className="btn btn-sec">Contact</button>
 //           </Link>
-//         </motion.div> 
+//         </motion.div>
 
 // ,
 //         "responsive": [

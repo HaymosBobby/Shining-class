@@ -1,20 +1,19 @@
 import ContactBox from "../components/ContactBox";
 import Header from "../components/Header";
+import data from "../util/data.json";
 
 const Contact = () => {
+  const { contactTitle, contactSubTitle, contactDescription, contactsData } =
+    data.contactData;
   return (
     <main className="contact-page">
       <Header title={"Contact"} project={false} />
 
       <div className="contact-page-container">
         <div className="contact-page-heading">
-          <h4>Contact us</h4>
-          <h2>Drop us a line</h2>
-          <p>
-            We're thrilled to hear from you. Have any questions, feedback, or
-            inquiries, please don't hesitate to reach out to us. Our friendly
-            team is here to assist you.
-          </p>
+          <h4>{contactTitle}</h4>
+          <h2>{contactSubTitle}</h2>
+          <p>{contactDescription}</p>
         </div>
         <div className="contact-form">
           <div className="form-container">
@@ -72,7 +71,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <ContactBox />
+        <ContactBox data={contactsData} />
       </div>
     </main>
   );

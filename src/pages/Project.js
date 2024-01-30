@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import data from "../util/data.json";
 import Header from "../components/Header";
-import perser from "html-react-parser";
+import parse from "html-react-parser";
 
 const Project = () => {
   const { id } = useParams();
@@ -68,7 +68,7 @@ const Project = () => {
         </div>
         <div className="center">
           <h2>{project?.title}</h2>
-          <p>{project?.content && perser(project.content)}</p>
+          <p>{project?.content && parse(project.content)}</p>
         </div>
         <div className="bottom">
           <h2>Related Projects</h2>
