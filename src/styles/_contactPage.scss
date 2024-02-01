@@ -29,11 +29,9 @@
             textarea {
               width: 100%;
               padding: 10px;
-              // border: 1px solid #ccc;
               border: 1px solid $color-primary;
               border-radius: 5px;
               background: transparent;
-              // color: $color-white;
               color: $color-secondary;
 
               &::placeholder {
@@ -42,7 +40,6 @@
                 text-transform: capitalize;
                 color: $color-secondary;
                 opacity: 0.7;
-                // color: $color-white;
               }
               &:focus {
                 outline: 5px solid #ffffffb4;

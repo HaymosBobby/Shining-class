@@ -7,25 +7,6 @@ const Nav = () => {
   const [scroll, setScroll] = useState(false);
   const path = useLocation().pathname;
 
-  // window.onscroll = () => {
-  //   window.scrollY > 180 ? setScroll(true) : setScroll(false);
-  //   console.log(window.scrollY);
-  //   console.log(scroll);
-  // };
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     window.scrollY > 180 ? setScroll(true) : setScroll(false);
-  //     console.log(window.scrollY);
-  //     console.log(scroll);
-  //   };
-  //   window.onscroll = handleScroll;
-
-  //   return () => {
-  //     window.onscroll = null;
-  //   };
-  // }, []);
-
   useEffect(() => {
     const handleScroll = () => {
       window.scrollY > 180 ? setScroll(true) : setScroll(false);
@@ -53,9 +34,6 @@ const Nav = () => {
               alt="Shining Class"
             />
           </Link>
-          {/* <Link to="/">
-            <img src="/images/sc-icon-c.png" alt="Shining Class" />
-          </Link> */}
         </div>
         <div className="top">
           <div className="con-soc">
@@ -213,88 +191,3 @@ const Nav = () => {
 };
 
 export default Nav;
-// <nav>
-//   <div className="nav-container">
-//     <div className="left">
-//       <h1>
-//         <Link to="/">SC</Link>
-//       </h1>
-//     </div>
-
-//     <div className="right">
-//       <div className="top">
-//         <div className="con-soc">
-//           <div className="contact">
-//             <ul>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon="bi:telephone-fill" hFlip={true} /> +234 333
-//                   3333 333
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon="bi:phone-fill" hFlip={true} /> +234 803 3333
-//                   333
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon="bi:envelope" hFlip={true} />{" "}
-//                   info@shiningclass.com
-//                 </Link>
-//               </li>
-//             </ul>
-//           </div>
-//           <div className="socials">
-//             <ul>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon={"bi:facebook"} />
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon={"bi:instagram"} />
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon={"bi:linkedin"} />
-//                 </Link>
-//               </li>
-//               <li>
-//                 <Link to="">
-//                   <Icon icon={"bi:twitter-x"} />
-//                 </Link>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="bottom">
-//         <div className="md-logo">
-//           <h1>
-//             <Link to="/">SC</Link>
-//           </h1>
-//         </div>
-//         <div className="nav-links">
-//           <ul>
-//             <li>
-//               <Link to="">Home</Link>
-//             </li>
-//             <li>
-//               <Link to="">About Us</Link>
-//             </li>
-//             <li>
-//               <Link to="">Our Team</Link>
-//             </li>
-//             <li>
-//               <Link to="">Contact</Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </nav>

@@ -21,6 +21,3 @@ const Contacts = ({ contactData }) => {
 };
 
 export default Contacts;
-
-//
-//

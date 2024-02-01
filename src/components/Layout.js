@@ -20,7 +20,7 @@ const Layout = () => {
   return (
     <>
       {isLoading ? (
-        <Preloader isLoading={isLoading}/>
+        <Preloader />
       ) : (
         <>
           <CustomCursor />

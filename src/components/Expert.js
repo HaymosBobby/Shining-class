@@ -1,26 +1,8 @@
-// import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Expert = () => {
-  // const [scrollTop, setScrollTop] = useState(0);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     setScrollTop(window.pageYOffset || document.documentElement.scrollTop);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
   return (
     <section className="expert">
-      {/* <div
-        className="background"
-        style={{ transform: `translateY(${scrollTop}px)` }}
-      ></div> */}
       <div className="expert-container">
         <div className="content">
           <h1

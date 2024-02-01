@@ -105,7 +105,6 @@
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 80px;
-    // @include hidden;
 
     .contact {
       flex: 0 0 30%;
@@ -179,8 +178,6 @@
     @include hidden;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 0 6px #00000080;
-
-    // min-width: 200px;
 
     img {
       transition: all 0.3s ease-in-out;

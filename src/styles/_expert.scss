@@ -13,10 +13,6 @@
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
-  // -webkit-transition: background 3s ease-in-out;
-  // -moz-transition: background 3s ease-in-out;
-  // -ms-transition: background 3s ease-in-out;
-  // -o-transition: background 3s ease-in-out;
 
   .expert-container {
     display: flex;
@@ -35,7 +31,6 @@
       p {
         margin: 10px 0 50px;
         font-size: 1.2rem;
-        // font-weight: 500;
         line-height: 1.7;
       }
 

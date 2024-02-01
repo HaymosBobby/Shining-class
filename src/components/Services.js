@@ -14,7 +14,7 @@ const Services = ({ servicesData }) => {
             {serviceSubTitle}
           </h2>
           <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            {serviceDescription} 
+            {serviceDescription}
           </p>
         </div>
       </div>
@@ -38,25 +38,6 @@ const Services = ({ servicesData }) => {
         ))}
       </div>
     </section>
-    // <section className="services">
-    //   <div className="services-heading">
-    //     <h4>{serviceTitle}</h4>
-    //     <h2>{serviceSubTitle}</h2>
-    //   </div>
-    //   <div className="services-container">
-    //     {serviceData.map((item, inder) => (
-    //       <div className="service">
-    //         <div className="icon">
-    //           <Icon icon={item.icon} />
-    //         </div>
-    //         <div className="content">
-    //           <h3>{item.title}</h3>
-    //           <p>{item.description}</p>
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </section>
   );
 };
 

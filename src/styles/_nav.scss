@@ -17,22 +17,16 @@ nav {
     @include hidden;
 
     .bg-logo {
-      // background-color: blue;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       left: 100px;
       height: 60px;
-      // width: 150px;
-      // width: 150px;
-      // width: 150px;
 
       img {
         object-fit: contain !important;
         object-position: 0%;
         height: 60px;
-        // width: 150px;
-        // height: 80px;
       }
     }
 
@@ -41,7 +35,6 @@ nav {
       justify-content: flex-end;
       height: 40px;
       overflow: hidden;
-
 
       .con-soc {
         background-color: $color-primary;
@@ -57,13 +50,10 @@ nav {
         .nav-contact {
           ul {
             li {
-        
               gap: 10px;
             }
           }
         }
-
-        
 
         .nav-contact,
         .nav-socials {
@@ -96,14 +86,11 @@ nav {
 
       .md-logo {
         display: none;
-        // background-color: blue;
         height: 60px;
-        // width: 250px;
         img {
           object-fit: contain;
           object-position: 0%;
           height: 60px;
-          // width: 200px;
         }
       }
 
@@ -374,8 +361,6 @@ nav {
 
   &.sticky {
     position: fixed;
-    // background: $color-primary-hover;
-    // background: #3b2929;
     background: $color-secondary;
     animation: fade-down 0.5s ease-in-out;
     @include current;
@@ -390,9 +375,7 @@ nav {
         top: 0;
       }
     }
-    // top: 0;
-    // left: 0;
-    // right: 0;
+
     .nav-container {
       .bg-logo {
         display: none;
@@ -413,139 +396,3 @@ nav {
     }
   }
 }
-
-// nav {
-//   background: transparent;
-//   width: 100%;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   z-index: 999;
-
-//   .nav-container {
-//     display: flex;
-//     justify-content: space-between;
-//     height: 120px;
-//     overflow: hidden;
-//     box-shadow: $color-boxShadow;
-//     color: $color-white;
-
-//     .left {
-//       flex: 3;
-//       display: flex;
-//       justify-content: center;
-//       align-items: center;
-//       // padding-left: 100px;
-//       // background-color: red;
-//       // height: 100%;
-//     }
-//     .right {
-//       height: 100%;
-//       // background-color: blue;
-//       flex: 9;
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: space-between;
-//       .top {
-//         // background-color: green;
-//         .con-soc {
-//           background-color: $color-primary;
-//           display: flex;
-//           justify-content: space-between;
-//           align-items: center;
-//           // height: 40px;
-//           position: relative;
-//           right: -15px;
-//           padding: 0 70px 0 30px;
-//           @include skew;
-
-//           .contact,
-//           .socials {
-//             @include unskew;
-
-//             ul {
-//               display: flex;
-
-//               li {
-//                 // padding: 10px;
-//                 border-right: 0.5px solid $color-white;
-//                 display: flex;
-//                 align-items: center;
-//                 justify-content: center;
-//                 height: 100%;
-//                 a {
-//                   padding: 10px 15px;
-//                   display: inline-block;
-//                   // align-items: center;
-//                   // justify-content: center;
-//                 }
-//               }
-//             }
-//           }
-//         }
-//       }
-
-//       .bottom {
-//         // background-color: yellow;
-//         .md-logo {
-//           display: none;
-//         }
-
-//         .nav-links {
-//           display: flex;
-//           justify-content: flex-end;
-//           // background-color: aqua;
-//           padding-right: 30px;
-//           ul {
-//             display: flex;
-//             // background-color: burlywood;
-//             gap: 10px;
-//             li {
-//               font-size: 1.2rem;
-//               font-weight: 500;
-
-//               a {
-//                 padding: 20px ;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-
-//     @include mid-screen {
-//       .left {
-//         display: none;
-//       }
-
-//       .right {
-//         .top {
-//           .con-soc {
-//             transform: skewX(0);
-//             right: 0;
-//             padding:  0 100px;
-
-//             .contact,
-//             .socials {
-//               transform: skewX(0);
-//             }
-//           }
-//         }
-//         .bottom {
-//           display: flex;
-//           align-items: center;
-//           justify-content: space-between;
-//           .md-logo {
-//             display: block;
-//             padding-left: 100px;
-//           }
-
-//           .nav-links {
-//             padding-right: 80px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }

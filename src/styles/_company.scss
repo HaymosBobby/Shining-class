@@ -18,8 +18,6 @@
 
       .image {
         flex: 1;
-        // min-height: 300px;
-        // max-height: 330px;
 
         img {
           height: inherit;
@@ -28,14 +26,12 @@
 
       .content-wrapper {
         flex: 1;
-        // box-shadow: $color-boxShadow;
 
         .navigations {
           ul {
             display: flex;
             gap: 2px;
             border-bottom: 2px solid $color-primary;
-            // box-shadow: $color-boxShadow;
 
             li {
               padding: 15px 20px;
@@ -54,7 +50,6 @@
           padding: 20px;
           line-height: 1.7;
           @include hidden;
-          // background: $color-primary;
           background: $color-secondary;
         }
       }
@@ -71,11 +66,9 @@
         margin-top: 50px;
         .slick-slide {
           padding: 20px;
-          // @include hidden;
 
           .team-member {
             box-shadow: $color-boxShadow;
-            // @include hidden;
             .image {
               background-color: red;
               height: 400px;
@@ -160,16 +153,9 @@
           right: 50px;
           left: auto;
         }
-        // .slick-next::before {
-        //   content: "\2192";
-        // }
-        // .slick-prev::before {
-        //   content: "\2039";
-        // }
 
         .slick-prev::before,
         .slick-next::before {
-          // color: $color-primary;
           color: $color-primary;
           opacity: 1;
           font-size: 2rem;
