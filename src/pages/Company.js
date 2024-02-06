@@ -15,9 +15,13 @@ const AboutPage = () => {
           <h4>About </h4>
           <h2>Our Company</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In at
-            sapiente rem neque perferendis, earum architecto tenetur impedit
-            mollitia. Commodi obcaecati assumenda repellat.
+            We are passionate about extracting valuable resources from the earth
+            while prioritizing sustainability and environmental responsibility.
+            With years of experience and a dedicated team, we strive to innovate
+            and implement safe mining practices. Our commitment to ethical
+            mining and community engagement sets us apart. Join us on this
+            journey as we contribute to the growth and development of the mining
+            industry!
           </p>
         </div>
         <section className="content-container">

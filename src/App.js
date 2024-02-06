@@ -12,7 +12,7 @@ import Project from "./pages/Project";
 
 function App() {
   useEffect(() => {
-    Aos.init({ once: true });
+    Aos.init({ once: true, offset: 80 });
   }, []);
 
   return (

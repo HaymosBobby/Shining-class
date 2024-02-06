@@ -20,7 +20,7 @@ const Projects = ({ projectData }) => {
         </div>
 
         <div className="project-container">
-          {projectsData.map((item, index) => (
+          {projectsData?.map((item, index) => (
             <div
               key={index}
               className="project"
@@ -28,12 +28,12 @@ const Projects = ({ projectData }) => {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              <img src={item.imgLink} alt={item.title} />
+              <img src={item?.imgLink} alt={item?.title} />
               <div className="content">
-                <h3>{item.title}</h3>
-                <h4>{item.category}</h4>
+                <h3>{item?.title}</h3>
+                <h4>{item?.category}</h4>
                 <div className="view-more">
-                  <Link to={`/projects/${item.title}/${item.id}`}>
+                  <Link to={`/projects/${item?.title}/${item?.id}`}>
                     <button>View more</button>
                   </Link>
                 </div>
@@ -47,3 +47,4 @@ const Projects = ({ projectData }) => {
 };
 
 export default Projects;
+
